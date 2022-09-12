@@ -1,0 +1,12 @@
+<screen width="1920" height="1080" aspect="[auto aspect]" template="10001/template.xui" >
+	
+	<image id="popup_overlay" x="0" y="0" ><![CDATA[images/10001/overlay.png]]></image>
+	<image id="popup_bg" x="607" y="320" ><![CDATA[images/10001/popup_bg.png]]></image>
+	
+	<text id="txt_headline" 	x="607" y="320" w="1509" h="70"  template="../popUpText"  valueof="DeviceCode" ><![CDATA[txt_waiting_hl]]></text>
+	<text id="txt_waiting" 		x="607" y="320" w="1281" h="521" fontsize="50" template="../popUpText"  valueof="DeviceCode" ><![CDATA[txt_waiting]]></text>
+	
+
+	<imagebutton id="btn_ok" x="883" y="665" w="154" h="56"   template="../style_btn_small" command="closePopup();" 	img="images/10001/btn_back.png,images/10001/btn_back.png" valueof="DeviceCode"><![CDATA[txt_btn_ok]]></imagebutton>
+	
+</screen>

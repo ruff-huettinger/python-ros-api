@@ -1,0 +1,17 @@
+<screen width="1920" height="1080" aspect="[auto aspect]" template="10001/template.xui" >
+	<image id="bg" x="0" y="0" ><![CDATA[images/10001/bg.png]]></image>
+
+	<image id="robot" x="1280" y="510" w="400" h="350" value="images/10001/robot.png"><![CDATA[images/10001/robot.png]]></image>
+
+	<imagebutton id="btn_forward" 		x="1407" 	y="349" w="150" h="150" command="moveCommand('forward');" img="images/10001/btn_forward.png,images/10001/btn_forward_down.png" 		></imagebutton>
+	<imagebutton id="btn_backward" 		x="1407" 	y="880" w="150" h="150" command="moveCommand('backward');" img="images/10001/btn_backward.png,images/10001/btn_backward_down.png" 	></imagebutton>
+	<imagebutton id="btn_left" 		x="1150" 	y="622" w="150" h="150" command="moveCommand('turn_left');" img="images/10001/btn_turn_left.png,images/10001/btn_turn_left_down.png" 	></imagebutton>
+	<imagebutton id="btn_right" 	x="1661" 	y="622" w="150" h="150" command="moveCommand('turn_right');" img="images/10001/btn_turn_right.png,images/10001/btn_turn_right_down.png" 	></imagebutton>
+	<imagebutton id="btn_delete" 	x="920" 	y="100" w="150" h="150" command="moveCommand('delete');" img="images/10001/btn_delete.png,images/10001/btn_delete_down.png" ></imagebutton>
+	<imagebutton id="btn_execute" 	x="920" 	y="300" w="150" h="150" command="executeGame();" img="images/10001/btn_execute.png,images/10001/btn_execute_down.png" ></imagebutton>
+
+	<image id="overlay" x="0" y="0" ><![CDATA[images/10001/overlay.png]]></image>
+	
+	<imagebutton id="btn_back" x="48" y="977" w="154" h="56"   template="../style_btn_small" command="goBack('gameProgramming');" 	img="images/10001/btn_back.png,images/10001/btn_back.png" valueof="DeviceCode"><![CDATA[txt_btn_back]]></imagebutton>
+	<imagebutton id="btn_abort" x="1800" y="20" w="56" h="56"   template="../style_btn_white_txt" command="goToStart();" 	img="images/10001/btn_close.png,images/10001/btn_close.png"></imagebutton>
+</screen>

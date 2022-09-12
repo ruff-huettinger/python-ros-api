@@ -1,0 +1,19 @@
+<screen width="1920" height="1080" aspect="[auto aspect]" template="10001/template.xui" >
+	
+	<image id="bg" x="0" y="0" ><![CDATA[images/10001/bg.png]]></image>
+	
+	<image id="programming" x="100" y="250" w="350" h="350"><![CDATA[images/10001/programmingRobot.png]]></image>
+	<image id="remote_control" x="500" y="250" w="350" h="350"><![CDATA[images/10001/remoteControlRobot.png]]></image>
+	<image id="algorithm" x="900" y="250" w="350" h="350"><![CDATA[images/10001/algorithmRobot.png]]></image>
+	<image id="mapping" x="1300" y="250" w="350" h="350"><![CDATA[images/10001/mappingRobot.png]]></image>
+	<imagebutton id="btn_en" x="1400" y="10" w="153" h="173"   command="changeLanguage('en');" 	img="images/10001/btn_en.png,images/10001/btn_en_down.png"></imagebutton>
+	<imagebutton id="btn_de" x="1600" y="10" w="153" h="173"   command="changeLanguage('de');" 	img="images/10001/btn_de.png,images/10001/btn_de_down.png"></imagebutton>
+	
+	<imagebutton id="btn_start_programming" x="100" y="610" w="350" h="92"   template="../style_btn" 	command="startMode('programming');" 	img="images/10001/btn_mode.png,images/10001/btn_mode_down.png,images/10001/btn_mode_inactive.png" valueof="DeviceCode"><![CDATA[txt_btn_start_programming]]></imagebutton>
+	<imagebutton id="btn_start_remote_control" x="500" y="610" w="350" h="92"   template="../style_btn" command="startMode('remoteControl');" 	img="images/10001/btn_mode.png,images/10001/btn_mode_down.png,images/10001/btn_mode_inactive.png" valueof="DeviceCode"><![CDATA[txt_start_remote_control]]></imagebutton>
+	<imagebutton id="btn_start_algorithm" x="900" y="610" w="350" h="92"   template="../style_btn" 		command="startMode('algorithm');" 		img="images/10001/btn_mode.png,images/10001/btn_mode_down.png,images/10001/btn_mode_inactive.png" valueof="DeviceCode"><![CDATA[txt_start_algorithm]]></imagebutton>
+	<imagebutton id="btn_start_mapping" x="1300" y="610" w="350" h="92"   template="../style_btn" 		command="startMode('mapping');" 		img="images/10001/btn_mode.png,images/10001/btn_mode_down.png,images/10001/btn_mode_inactive.png" valueof="DeviceCode"><![CDATA[txt_start_mapping]]></imagebutton>
+
+	<text id="txt_headline" 	x="0" y="166" w="1920" h="174"  template="../style_hl"  valueof="DeviceCode" ><![CDATA[txt_headline]]></text>
+	
+</screen>

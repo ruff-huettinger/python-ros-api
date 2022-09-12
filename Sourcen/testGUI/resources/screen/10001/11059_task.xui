@@ -1,0 +1,47 @@
+<screen width="1920" height="1080" aspect="[auto aspect]" template="11059/11059_template.xui">
+	
+	<text id="txt_story_headline" 	template="../storyHL" ><![CDATA[txt_story_headline]]></text>
+	<text id="txt_Tasks" 			x="222" y="293" w="180" h="68"  font="MyriadPro" fontstyle="Regular" fontsize="60" fgcolor="ffffff" fontalign="left" ><![CDATA[txt_Tasks]]></text>
+	
+	<image id="img_level" 	x="336" y="516" w="1168" h="287"  ><![CDATA[images/graphic_Level_1.png]]></image>
+	
+	<style id="tasks" font="MyriadPro" fontstyle="Regular" fontsize="60" fgcolor="ffffff" fontalign="center" />
+	
+	<anchor id="level_1" />	
+	<imagebutton id="task_1_1" 	parent="level_1"	x="348"  y="166" w="296" h="296" template="tasks" img="images/task.png,images/task.png,images/task_down.png,images/task_red_down.png" ><![CDATA[txt_1]]></imagebutton>
+	<imagebutton id="task_1_2" 	parent="level_1"	x="581"  y="166" w="296" h="296" template="tasks" img="images/task.png,images/task.png,images/task_down.png,images/task_red_down.png" ><![CDATA[txt_2]]></imagebutton>
+	<imagebutton id="task_1_3" 	parent="level_1"	x="814"  y="166" w="296" h="296" template="tasks" img="images/task.png,images/task.png,images/task_down.png,images/task_red_down.png" ><![CDATA[txt_3]]></imagebutton>
+	<imagebutton id="task_1_4" 	parent="level_1"	x="1047" y="166" w="296" h="296" template="tasks" img="images/task.png,images/task.png,images/task_down.png,images/task_red_down.png" ><![CDATA[txt_4]]></imagebutton>
+	<imagebutton id="task_1_5" 	parent="level_1"	x="1280" y="166" w="296" h="296" template="tasks" img="images/task.png,images/task.png,images/task_down.png,images/task_red_down.png" ><![CDATA[txt_5]]></imagebutton>
+																																							   
+	<anchor id="level_2" />	                                                                                                                                   
+	<imagebutton id="task_2_1" 	parent="level_2"	x="348"  y="166" w="296" h="296" template="tasks" img="images/task.png,images/task.png,images/task_down.png,images/task_red_down.png" ><![CDATA[txt_1]]></imagebutton>
+	<imagebutton id="task_2_2" 	parent="level_2"	x="503"  y="166" w="296" h="296" template="tasks" img="images/task.png,images/task.png,images/task_down.png,images/task_red_down.png" ><![CDATA[txt_2]]></imagebutton>
+	<imagebutton id="task_2_3" 	parent="level_2"	x="658"  y="166" w="296" h="296" template="tasks" img="images/task.png,images/task.png,images/task_down.png,images/task_red_down.png" ><![CDATA[txt_3]]></imagebutton>
+	<imagebutton id="task_2_4" 	parent="level_2"	x="813"  y="166" w="296" h="296" template="tasks" img="images/task.png,images/task.png,images/task_down.png,images/task_red_down.png" ><![CDATA[txt_4]]></imagebutton>
+	<imagebutton id="task_2_5" 	parent="level_2"	x="968"  y="166" w="296" h="296" template="tasks" img="images/task.png,images/task.png,images/task_down.png,images/task_red_down.png" ><![CDATA[txt_5]]></imagebutton>
+	<imagebutton id="task_2_6" 	parent="level_2"	x="1123" y="166" w="296" h="296" template="tasks" img="images/task.png,images/task.png,images/task_down.png,images/task_red_down.png" ><![CDATA[txt_6]]></imagebutton>
+	<imagebutton id="task_2_7" 	parent="level_2"	x="1278" y="166" w="296" h="296" template="tasks" img="images/task.png,images/task.png,images/task_down.png,images/task_red_down.png" ><![CDATA[txt_7]]></imagebutton>
+																																							   
+	<anchor id="level_3" />	                                                                                                                                   
+	<imagebutton id="task_3_1" 	parent="level_3"	x="348"  y="166" w="296" h="296" template="tasks" img="images/task.png,images/task.png,images/task_down.png,images/task_red_down.png" ><![CDATA[txt_1]]></imagebutton>
+	<imagebutton id="task_3_2" 	parent="level_3"	x="463"  y="166" w="296" h="296" template="tasks" img="images/task.png,images/task.png,images/task_down.png,images/task_red_down.png" ><![CDATA[txt_2]]></imagebutton>
+	<imagebutton id="task_3_3" 	parent="level_3"	x="578"  y="166" w="296" h="296" template="tasks" img="images/task.png,images/task.png,images/task_down.png,images/task_red_down.png" ><![CDATA[txt_3]]></imagebutton>
+	<imagebutton id="task_3_4" 	parent="level_3"	x="693"  y="166" w="296" h="296" template="tasks" img="images/task.png,images/task.png,images/task_down.png,images/task_red_down.png" ><![CDATA[txt_4]]></imagebutton>
+	<imagebutton id="task_3_5" 	parent="level_3"	x="808"  y="166" w="296" h="296" template="tasks" img="images/task.png,images/task.png,images/task_down.png,images/task_red_down.png" ><![CDATA[txt_5]]></imagebutton>
+	<imagebutton id="task_3_6" 	parent="level_3"	x="923"  y="166" w="296" h="296" template="tasks" img="images/task.png,images/task.png,images/task_down.png,images/task_red_down.png" ><![CDATA[txt_6]]></imagebutton>
+	<imagebutton id="task_3_7" 	parent="level_3"	x="1038" y="166" w="296" h="296" template="tasks" img="images/task.png,images/task.png,images/task_down.png,images/task_red_down.png" ><![CDATA[txt_7]]></imagebutton>
+	<imagebutton id="task_3_8" 	parent="level_3"	x="1153" y="166" w="296" h="296" template="tasks" img="images/task.png,images/task.png,images/task_down.png,images/task_red_down.png" ><![CDATA[txt_8]]></imagebutton>
+	<imagebutton id="task_3_9" 	parent="level_3"	x="1268" y="166" w="296" h="296" template="tasks" img="images/task.png,images/task.png,images/task_down.png,images/task_red_down.png" ><![CDATA[txt_9]]></imagebutton>
+	
+	<anchor id="completed" />
+	<text id="txt_completed" 			 parent="completed"	x="222" y="517" w="1476" h="301"  font="MyriadPro" fontstyle="Semibold" fontsize="50" fgcolor="ffffff" fontalign="center" ><![CDATA[11059.congrats]]></text>
+	<image id="thumb_up" 				 parent="completed"	x="915" y="595" w="90" h="118"  ><![CDATA[images/thumb_up.png]]></image>
+	<text id="txt_completed_level" 		 parent="completed"	x="222" y="745" w="1476" h="301"  font="MyriadPro" fontstyle="Semibold" fontsize="50" fgcolor="ffffff" fontalign="center" ><![CDATA[11059.completed_1]]></text>
+	
+	<imagebutton id="bw_btn_start_level" parent="completed" 	template="../style_startbtn" command="startGame();" img="images/btn_start_level.png,images/btn_start_level_down.png" valueof="DeviceCode" ><![CDATA[11059.txt_start_level_1]]></imagebutton>
+	
+	
+	<imagebutton id="btn_home" template="../homeBTN" ></imagebutton>
+
+</screen>

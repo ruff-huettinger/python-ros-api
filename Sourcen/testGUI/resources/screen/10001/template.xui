@@ -1,0 +1,7 @@
+<screen width="1920" height="1080" aspect="[auto aspect]" >
+    <style id="style_hl"   	fgcolor="ffffff" font="DINPro" fontstyle="bold"	  fontsize="80" fontalign="left" />
+    <style id="style_info"  fgcolor="000000" font="DINPro" fontstyle="Medium" fontsize="25" />
+	<style id="style_btn"   fgcolor="ffffff" font="DINPro" fontstyle="Medium" fontsize="35" fontalign="center" img="images/btn_start.png,images/btn_start_down.png" />	
+	<style id="style_btn_small"   fgcolor="ffffff" font="DINPro" fontstyle="Medium" fontsize="30" fontalign="center"/>	
+	<style id="btn_close" 	x="1781" y="000" img="images/btn_close.png,images/btn_close_down.png" />
+</screen>
